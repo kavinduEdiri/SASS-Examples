@@ -1,0 +1,31 @@
+h1{
+    color:palevioletred;
+    background-color: blue;
+}
+
+@mixin importantText {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px;
+    
+}
+
+
+.danger{
+    @include importantText;
+    background-color: aqua;
+    cursor: help;
+}
+
+
+@mixin bodered($color,$width) {
+    border: $width solid $color;
+    
+}
+
+
+
+.myArtical{
+    @include bodered(green, 3px);
+}

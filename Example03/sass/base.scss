@@ -1,0 +1,15 @@
+$fontColor:blue;
+$fontSize:20px;
+$backgroundColr:yellow;
+$cursor:pointed;
+
+body{
+
+    color: $fontColor;
+    font-size: $fontColor;
+    background-color: $backgroundColr;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
+    margin: 10px;
+}

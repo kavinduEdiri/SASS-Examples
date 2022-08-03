@@ -1,0 +1,17 @@
+h1 {
+  color: palevioletred;
+  background-color: blue;
+}
+
+.danger {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px;
+  background-color: aqua;
+  cursor: help;
+}
+
+.myArtical {
+  border: 3px solid green;
+}/*# sourceMappingURL=main.css.map */

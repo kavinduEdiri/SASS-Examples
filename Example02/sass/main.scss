@@ -1,0 +1,17 @@
+h1{
+    background-color: aqua;
+    color: blue;
+}
+
+$fontColor : red;
+$fontSize : 15px;
+$backgroundColor : yellow;
+
+
+p{
+    color: $fontColor;
+    font-size: $fontSize;
+    cursor: pointer;
+    padding: 0;
+    
+}
